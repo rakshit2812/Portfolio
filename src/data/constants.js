@@ -390,7 +390,7 @@ export const education = [
     school: "Indian Institute of Information Technology, Kota",
     date: "Aug 2021 - Sep 2025",
     grade: "7.91 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in lectronics and Communication at Indian Institute of Information Technology, Kota. I have completed 5 semesters and have a CGPA of 7.9. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming in C++, Database Management Systems, Operating Systems, among others. I am also Technical Head at Sports Committee of IIIT Kota, where I am learning and working on Club website with a team of talented developers.",
+    desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication at Indian Institute of Information Technology, Kota. I have completed 5 semesters and have a CGPA of 7.9. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming in C++, Database Management Systems, Operating Systems, among others. I am also Technical Head at Sports Committee of IIIT Kota, where I am learning and working on Club website with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
   },
   {

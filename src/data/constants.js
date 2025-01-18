@@ -9,11 +9,12 @@ import news from "../images/news.png"
 import funtext from "../images/funtext.png"
 import cuisine from "../images/cuisine.png"
 import calc from "../images/calc.png"
+import bookstore from "../images/bookstore.png"
 
 export const Bio = {
   name: "Rakshit Gupta",
   roles: [
-    "Frontend Developer",
+    "Full Stack Developer",
     "Competitive Programmer",
     "UI/UX Designer",
     "Content Writer",
@@ -22,7 +23,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/rakshit2812",
   resume:
-    "https://drive.google.com/file/d/1Q6eT2l3pBzQB4sbIMwKYyQyNCqy5cbGr/view?usp=drive_link",
+    "https://drive.google.com/file/d/1HKeGaUqo2mdI0AD26ewuKv8NeAsFC7h2/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/rakshitgupta0/",
   twitter: "https://twitter.com/Rakshit51225079",
   insta: "https://www.instagram.com/rakshitgupta2812/",
@@ -321,22 +322,6 @@ export const experiences = [
     ],
     doc: "https://drive.google.com/file/d/1QJoa_TIV5OYzSBE-_qMOpiAIUMQiA-wC/view?usp=sharing",
   },
-  {
-    id: 2,
-    img: qns,
-    role: "Head Content Supervisor",
-    company: "Quills 'n' Stills, IIIT Kota",
-    date: "March 2022 - Jan 2024",
-    desc: "Joined as a member in content team and became the Head Content Supervisor. I wrote various articles, poetries, Tech reviews for College Magazine which also got published. I also handled the social media for this club. After becoming content supervisor I guided my team for writing the best content, took various workshops of content creation.",
-    skills: [
-      "Content Creation",
-      "Editing",
-      "Research",
-      "Adaptibility",
-      "Communnication",
-      "Social Media",
-    ],
-  },
   // {
   //   id: 3,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
@@ -389,8 +374,8 @@ export const education = [
     img: iiitk,
     school: "Indian Institute of Information Technology, Kota",
     date: "Aug 2021 - Sep 2025",
-    grade: "7.91 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication at Indian Institute of Information Technology, Kota. I have completed 5 semesters and have a CGPA of 7.9. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming in C++, Database Management Systems, Operating Systems, among others. I am also Technical Head at Sports Committee of IIIT Kota, where I am learning and working on Club website with a team of talented developers.",
+    grade: "7.89 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication at Indian Institute of Information Technology, Kota. I have completed 7 semesters and have a CGPA of 7.89. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming in C++, Database Management Systems, Operating Systems, among others. I am also Technical Head at Sports Committee of IIIT Kota, where I am learning and working on Club website with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
   },
   {
@@ -415,6 +400,19 @@ export const education = [
 
 export const projects = [
   {
+    id: 10,
+    title: "BookStore",
+    // date: "Jun 2023 - Jul 2023",
+    description:
+      "It is a scalable online platform with robust functionalities, connecting 500+ book sellers and buyers, creating an online book marketplace that enhanced book availability and streamlined transactions. It an efficient server-side framework with Express.Js and MongoDB, upgrading processing speeds to handle over 1,000 monthly active users. Ensured robust security features to safeguard sensitive information, resulting in a 30% increase in user trust. I have Refined back-end systems with Express.Js and MongoDB, achieving a 20% improvement in response time and handling 3,000+ monthly active users.",
+    image:
+      bookstore,
+    tags: ["ReactJs", "NodeJs", "ExpressJs", "MongoDb", "JavaScript", "Daisy UI"],
+    // category: "android app",
+    github: "https://github.com/rakshit2812/Movie-app",
+    webapp: "https://github.com/rakshit2812/Movie-app",
+  },
+  {
     id: 11,
     title: "Movix",
     // date: "Jan 2024 - Feb 2024",
@@ -432,7 +430,7 @@ export const projects = [
     ],
     // category: "web app",
     github: "https://github.com/rakshit2812/Movie-app",
-    webapp: "movix-app2812.vercel.app/",
+    webapp: "https://movix-app2812.vercel.app/",
   },
   {
     id: 9,
@@ -450,7 +448,7 @@ export const projects = [
     ],
     // category: "web app",
     github: "https://github.com/rakshit2812/Social-Media",
-    webapp: "social-media-gamma-seven.vercel.app",
+    webapp: "https://social-media-gamma-seven.vercel.app",
   },
   {
     id: 0,
@@ -483,19 +481,19 @@ export const projects = [
     github: "https://github.com/rakshit2812/FunText",
     webapp: "https://fun-text-bgbm3vodf-rakshit-guptas-projects.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Chef Cuisine",
-    // date: "Jan 2023 - Mar 2023",
-    description:
-      "This is a purely HTML and CSS based webpage which involves advanced CSS concepts. It is a UI representation of a restaurant Website Which contain Menu, Book a table section, Offers and Contact Us option.",
-    image:
-      cuisine,
-    tags: ["HTML", "CSS",],
-    // category: "machine learning",
-    github: "https://github.com/rakshit2812/Chef-Cuisine",
-    webapp: "https://rakshit2812.github.io/Chef-Cuisine/",
-  },
+  // {
+  //   id: 2,
+  //   title: "Chef Cuisine",
+  //   // date: "Jan 2023 - Mar 2023",
+  //   description:
+  //     "This is a purely HTML and CSS based webpage which involves advanced CSS concepts. It is a UI representation of a restaurant Website Which contain Menu, Book a table section, Offers and Contact Us option.",
+  //   image:
+  //     cuisine,
+  //   tags: ["HTML", "CSS",],
+  //   // category: "machine learning",
+  //   github: "https://github.com/rakshit2812/Chef-Cuisine",
+  //   webapp: "https://rakshit2812.github.io/Chef-Cuisine/",
+  // },
   {
     id: 3,
     title: "Calculator",
@@ -509,19 +507,6 @@ export const projects = [
     github: "https://github.com/rakshit2812/demo",
     webapp: "https://demo-six-self.vercel.app/",
   },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   // category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
   // {
   //   id: 4,
   //   title: "Whatsapp Clone",
